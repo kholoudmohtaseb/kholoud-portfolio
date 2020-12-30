@@ -51,7 +51,7 @@ export const Profile = () => {
                     <CustomTimelineItem title="Title" text={resumeData.title} />
                     <CustomTimelineItem title="Email" text={resumeData.email} />
                 </CustomTimeline>
-                <div className='button-containor'>
+                <div className='button-containor' style={{ display: 'flex' }}>
                     <CustomButton text={'Download CV'} icon={<GetAppIcon />} />
                 </div>
             </div>

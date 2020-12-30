@@ -2,7 +2,7 @@ import { Container, Grid } from '@material-ui/core';
 import React from 'react';
 
 import Profile from './component/Profile/Profile';
-import Header from './component/Header';
+import Header from './component/header/Header';
 import Footer from './component/Footer';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
@@ -18,24 +18,18 @@ function App() {
         <Grid item xs={12} sm={12} md={4} lg={3} >
           <Profile />
         </Grid>
-
-        <Grid item xs style={{ backgroundColor: 'red' }}>
-          <Header />
-
+        <Grid item xs >
           <Router>
+            <Header />
             <Switch>
-
               <Route path='/portfolio'>
                 <Portfolio />
               </Route>
-
               <Route path='/'>
                 <Resume />
               </Route>
-
             </Switch>
           </Router>
-
           <Footer />
         </Grid>
       </Grid>
