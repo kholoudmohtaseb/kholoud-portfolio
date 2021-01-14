@@ -3,9 +3,9 @@ import React from 'react';
 
 import Profile from './component/Profile/Profile';
 import Header from './component/header/Header';
-import Footer from './component/Footer';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
+import Footer from './component/footer/Footer';
+import Portfolio from './pages/portfolio/Portfolio';
+import Resume from './pages/resume/Resume';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -21,14 +21,16 @@ function App() {
         <Grid item xs >
           <Router>
             <Header />
-            <Switch>
-              <Route path='/portfolio'>
-                <Portfolio />
-              </Route>
-              <Route path='/'>
-                <Resume />
-              </Route>
-            </Switch>
+            <div className="main-content">
+              <Switch>
+                <Route path='/portfolio'>
+                  <Portfolio />
+                </Route>
+                <Route path='/'>
+                  <Resume />
+                </Route>
+              </Switch>
+            </div>
           </Router>
           <Footer />
         </Grid>

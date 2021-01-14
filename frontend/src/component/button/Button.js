@@ -7,7 +7,7 @@ const CustomButton = ({ text, icon }) => {
         <Button className='custom-btn' endIcon={icon ? <div className='btn-icon-containor'>{icon}</div> : null}>
             <span className='btn-text'>{text}</span>
         </Button>
-    )
-}
+    );
+};
 
 export default CustomButton;
