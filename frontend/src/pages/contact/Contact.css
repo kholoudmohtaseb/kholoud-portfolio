@@ -1,0 +1,24 @@
+/* Contact */
+.contactInfo-item{
+    font-size: 14px !important;
+    color: darkslategray;
+    line-height: 34px !important;
+}
+
+.contactInfo-item > span{
+color: black;
+font-weight: 500;
+}
+
+.contactInfo-socialsContainer{
+margin-top: 25px;
+}
+
+.contactInfo-contact > a > .MuiSvgIcon-root{
+    font-size: 25px !important;
+    margin-right: 10px;
+    color: black;
+}
+.contactInfo-contact > a > .MuiSvgIcon-root :hover{
+color: var(--main-color);
+}

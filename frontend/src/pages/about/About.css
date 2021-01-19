@@ -1,0 +1,11 @@
+/* about me */
+.aboutme-text{
+    color:darkslategray !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    white-space: pre-line !important;
+    /* text-align: center; */
+}
+
+
+
