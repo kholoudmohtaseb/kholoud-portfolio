@@ -19,6 +19,6 @@ margin-top: 25px;
     margin-right: 10px;
     color: black;
 }
-.contactInfo-contact > a > .MuiSvgIcon-root :hover{
+.contactInfo-contact > a >:hover{
 color: var(--main-color);
 }

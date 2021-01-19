@@ -48,7 +48,7 @@ export default {
             icon: <InstagramIcon />
         }
     },
-    about: "I am an entrepreneurial, data-informed and user-focused Product / Project Leader & lifelong learner.\n Over the past few years, I worked in various jobs and companies with variety duties and responsibilities, which gained me an excellent experience and gave me varied skills and the ability to work with many different types of people so I have strong ability to communicate and work in a team effectively.\nI am not afraid of facing problems so you’ll often find me working on complex problems and looking for solutions.\nI am passionate about everything related to web development. I follow-up on the most recent changes in web development.\nI enjoy speaking about Faith, Science, Tech, Product / Project Management Best Practices.\nI love people, family, art, music, photography, developing, coffee & travel.",
+    about: "I am an entrepreneurial, data-informed and user-focused Product, self motivated & lifelong learner.\n Over the past few years, I worked in various jobs and companies with variety duties and responsibilities, which gave me varied skills and the ability to work with many different types of people so I have strong ability to communicate and work in a team effectively.\nI am not afraid of facing problems so you’ll often find me working on complex problems and looking for solutions.\nI am passionate about everything related to web development. I follow-up on the most recent changes in this field.\nI enjoy speaking about Faith, Science, Tech, Product / Project Management Best Practices.\nI love people, family, art, music, photography, developing, coffee & travel.",
     experiences: [
         {
             title: "Jordan Insurance Company",
